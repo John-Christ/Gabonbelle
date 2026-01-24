@@ -101,4 +101,65 @@
 
     <header class="hero-akanda">
         <h1>Parc National d'Akanda</h1>
-        <p>Le Sanctuaire
+        <p>Le Sanctuaire Littoral entre Ciel et Mer</p>
+    </header>
+
+    <section>
+        <div class="container-slim">
+            <h2>Une Immersion aux Portes de Libreville</h2>
+            <span class="subtitle-page">Le poumon vert de l'Estuaire, refuge mondial des oiseaux migrateurs.</span>
+            
+            <p>Situé au Nord-Est de la capitale, le <strong>Parc National d'Akanda</strong> est un écosystème unique, dominé par l'une des mangroves les plus vastes et les mieux préservées d'Afrique Centrale. C'est ici que la forêt gabonaise rencontre l'Océan Atlantique dans un ballet permanent de marées.</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Ornithologie VIP</h3>
+                    <p>Akanda accueille jusqu'à 40 000 oiseaux migrateurs chaque année. Un paradis pour les observateurs recherchant le Chevalier arlequin ou le Bécasseau cocorli.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Tortues Luths</h3>
+                    <p>Entre novembre et février, les plages isolées du parc deviennent le théâtre de la ponte des tortues luths, les plus grandes tortues marines au monde.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Mangroves Sacrées</h3>
+                    <p>Explorez en bateau privé les chenaux labyrinthiques bordés de palétuviers, un filtre biologique vital pour la vie marine du Gabon.</p>
+                </div>
+            </div>
+
+            <h2>L'Expérience Gabonbelle à Akanda</h2>
+            <p>Malgré sa proximité avec la ville, Akanda offre une déconnexion totale. Nous organisons pour nos clients des expéditions exclusives à la journée ou des bivouacs de luxe sur les îles du parc.</p>
+            
+            <div style="background:#111; padding:30px; border-radius:10px; margin:40px 0; border-left: 4px solid var(--gold);">
+                <h3 style="color:var(--gold); margin-top:0;">Services Exclusifs :</h3>
+                <ul style="list-style: none; padding:0;">
+                    <li>✓ Privatisation de vedettes rapides grand confort.</li>
+                    <li>✓ Guides naturalistes experts en écosystèmes marins.</li>
+                    <li>✓ Déjeuners gastronomiques "Pieds dans l'eau" sur banc de sable.</li>
+                    <li>✓ Matériel d'observation optique de haute précision (Swarovski/Leica).</li>
+                </ul>
+            </div>
+
+            <p>Akanda est également le lieu idéal pour la pêche sportive côtière et la découverte des rites ancestraux des populations locales vivant en harmonie avec la mer.</p>
+
+            <div style="text-align:center; margin-top:60px;">
+                <a href="index.html#account" class="btn">Réserver une Escapade Exclusive</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gabonbelle Luxury Safari. Akanda : La sentinelle de l'Estuaire.</p>
+    </footer>
+
+    <script>
+        // Persistance du scroll pour cette page
+        window.addEventListener('scroll', () => {
+            localStorage.setItem('scrollPos_akanda', window.scrollY);
+        });
+        window.addEventListener('load', () => {
+            const pos = localStorage.getItem('scrollPos_akanda');
+            if(pos) window.scrollTo({ top: parseInt(pos), behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
